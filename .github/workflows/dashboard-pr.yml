@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Create Branch
         # This is needed because we want to do a PR, and the commit
         # action used below requires the branch it is commiting to to
